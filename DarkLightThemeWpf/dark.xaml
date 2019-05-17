@@ -1,0 +1,45 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:DarkLightThemeWpf">
+   
+    
+    <Style TargetType="Button">
+    <Style.Setters>
+        <Setter Property="Background" Value="DarkBlue" >
+        </Setter>
+        <Setter Property="Foreground" Value="White"/>
+        <Setter Property="FontFamily" Value="Commit Sans MS"/>
+    </Style.Setters>
+    </Style>
+    <Style TargetType="TextBox">
+        <Style.Setters>
+            <Setter Property="Background" Value="DarkGray" >
+
+            </Setter>
+            <Setter Property="Foreground" Value="DarkBlue"/>
+            <Setter Property="FontFamily" Value="Commit Sans MS"/>
+        </Style.Setters>
+    </Style>
+    <Style TargetType="ListBox">
+        <Style.Setters>
+            <Setter Property="Background" Value="DimGray" >
+
+            </Setter>
+            <Setter Property="Foreground" Value="DarkGray"/>
+            <Setter Property="FontFamily" Value="Commit Sans MS"/>
+        </Style.Setters>
+    </Style>
+    <Style TargetType="TextBlock">
+        <Style.Setters>
+            <Setter Property="Background" Value="Black" >
+            </Setter>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontFamily" Value="Commit Sans MS"/>
+        </Style.Setters>
+    </Style>
+    
+    <Style x:Key="WindowStyle" TargetType="Window">
+        <Setter Property="Background" Value="Black" />
+    </Style>
+   
+</ResourceDictionary>
